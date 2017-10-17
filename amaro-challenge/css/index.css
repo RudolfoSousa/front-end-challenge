@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+body{
+	margin: 0 auto;
+}
+header{
+	text-align: center;
+}
+nav ul li{
+	list-style: none;
+	margin-bottom: 2rem;
+}
+nav ul a{
+	display: block;
+	padding: 1rem 2rem;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+button{
+	border: 0;
+	background-color: transparent;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.flex-warp{
+	flex-wrap: wrap;
+}
+.content{
+	width: 90%;
+	margin: 0 auto;
+}
+#btn-open,
+#logo,
+#car{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+}
+#btn-filter{
+	margin: 0 2rem; 
+}
+#nav-top{
+	border-bottom: .1px solid gray;
+	padding: .5rem 0;
+	width: 100%;
+	background-color: #F8F8FF;
+}
+#logo{
+	margin: 0 3rem;
+}
+.nav-bar{
+	position: fixed;
+	background-color: #F5FFFA;
+	top: 0;
+	left: -45%;
+	height: 100%;
+	transition: .2s ease-out;
+	z-index: 999;
+	box-shadow: 1px 0px 10px black;
+	text-align: left;
+}
+.menu-ativo .nav-bar{
+	left: 0;
+	transition: .2s ease-out;
+}
+#btn-close{
+	margin: 1rem;
+}
+#extra-top{
+	padding: 1rem 0;
+}
+#extra-top p{
+	width: 50%;
+	text-align: left;
+	border-right: .1px solid #708090;
+}
+img[src="img/background.jpg"]{
+	width: 100%;
+}
+.box{
+	width: 40%;
+	margin: .5rem 0;
+}
+.box img{
+	width: 100%;
+}
+.box-name{
+	text-align: center;
+	text-transform: uppercase;
+	margin: .5rem 0;
+}
+.box .flex{
+	font-size: 70%;
+	margin: .5rem 0;
+}
+.flex .sizes{
+	font-size: 80%;
+	width: 100%;
+	margin: 0 auto;
+}
+.sizes p{
+	border: .1px solid black;
+	padding: .2em;
+	margin: 0 .1em;
+	border-radius: 50%;
+}
+.size-par{
+	width: 100%;
+	font-size: 80%;
+	text-align: center;
+}
+.on-sale{
+	display: none;
+}
+.block{
+	display: flex;
+}
+.modal body{
+	overflow-y: hidden;
+}
+.modal .individual{
+	left: 0;
+	transition: .3s ease-out;
+}
+.individual{
+	transition: .3s ease-out;
+	position: fixed;
+	top: 0;
+	left: 105%;
+	width: 100%;
+	background-color: white;
+	height: 100%;
+}
+.individual img{
+	width: 100%;
+}
+.individual p,
+.individual .preco{
+	padding: .5rem;
+}
